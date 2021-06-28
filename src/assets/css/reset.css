@@ -1,0 +1,121 @@
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+body {
+  transform: translate3d(0, 0, 0)
+}
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  outline: none;
+  margin: 0;
+  font-family: PingFangSC-Regular, Microsoft Yahei, sans-serif;
+}
+input {
+  border: none;
+  outline: none;
+}
+html {
+  box-sizing: border-box;
+}
+
+img,
+embed,
+iframe,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+img {
+  vertical-align: bottom;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+input:-webkit-autofill {
+ transition: background-color 50000s ease-in-out 0s;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  background-color: #efefef !important;
+  font-family: PingFangSC-Regular, Microsoft Yahei, sans-serif;
+  padding: 0!important;
+}
+i, em {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+.el-button[name="search"],
+.el-button[name="search"]:hover,
+.el-button[name="search"]:focus {
+  background: #2CA9CB;
+  border-color: #2CA9CB;
+  color: #fff;
+}
+.el-button[name="reset"],
+.el-button[name="reset"]:hover,
+.el-button[name="reset"]:focus {
+  background: #ddd;
+  border-color: #ddd;
+  color: #000;
+}
